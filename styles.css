@@ -1,0 +1,86 @@
+:root{
+    --secundary-blue: #0D112E;
+    --main-bue: #45acad;
+}
+html
+{
+    font-size:62.5%
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: var(--main-bue);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+main{
+    background-color: var(--secundary-blue);
+    height: 100vh;
+}
+main h2{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--main-bue);
+    padding: 10px;
+}
+.user-selection img{
+    width: 90px;
+}
+.user-selection{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.versus-section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.game-section .user-choose img{
+    width: 100px;
+}
+.game-section .user-choose{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.versus-section .versus{
+    width: 100px;   
+}
+.game-section h3{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+.computer-choose img{
+    width: 100px;
+}
+.computer-choose{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.start-text{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: var(--main-bue);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: var(--secundary-blue);
+    font-family: 'Licorice', cursive;
+}
